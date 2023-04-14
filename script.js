@@ -214,6 +214,7 @@ function results(){
 
     restart.addEventListener('click', ()=>{
         enableButtons()
+        h1.innerHTML = "Choose Input"
         gameDiv.style.display = "block"
         resultsDiv.style.display = "none"
 
