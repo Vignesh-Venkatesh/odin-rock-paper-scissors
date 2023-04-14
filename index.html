@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rock Paper Scissors | Odin Project</title>
+</head>
+<body>
+    <div class="game">
+        <h1>Choose Input</h1>
+        <div class="buttons">
+            <button class="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button class="paper">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button class="scissor">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+        </div>
+
+        <div class="choose">
+            <p>Player: <span class="player-chose">Scissor</span></p>
+            <p>Computer: <span class="computer-chose">Scissor</span></p>
+        </div>
+
+        <div class="score-div">
+            <p>Player: <span class="player-score">5</span></p>
+            <p>Computer: <span class="computer-score">5</span></p>
+        </div>
+        <p class="round-p">Round <span class="round-s">0</span> of 5</p>
+        <p class="response"></p>
+    </div>
+    
+    <div class="results">
+        <div class="final-verdict">
+            <h2 class="verdict">Final Scores</h2>
+            <div>
+                <p>Player: <span class="player">5</span></p>
+                <p>Computer: <span class="computer">5</span></p>
+            </div>
+            <button class="restart">Restart?</button>
+        </div>
+    </div>
+        
+
+    <div class="footer">
+        <p>Made with 🧡 by Vignesh</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

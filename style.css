@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DynaPuff:wght@400;500;600;700&display=swap');
+
+:root{
+    --background-color-1: #001d3d;
+    --background-color-2: #04284a;
+    --icon-color: #ffc300;
+    --button-color: #003566;
+    --drop-shadow: #081b2f;
+    --text-color-1: #ffc300;
+    --text-color-2: #e5e5e5;
+    --text-color-3: #ffd60a;
+    --font-family-1: "Chivo Mono";
+    --font-family-2: "DynaPuff"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color-1);
+    padding-top: 20px;
+}
+
+.buttons button i{
+    font-size: 50px;
+}   
+
+button{
+    background-color: var(--button-color);
+    color: var(--icon-color);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    transition: all ease-in 0.2s;
+    box-shadow: 5px 5px 2px var(--drop-shadow);
+}
+
+button:hover{
+    background-color: var(--icon-color);
+    color: var(--button-color);
+    transform: translate(2px, 5px);
+    box-shadow: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: var(--font-family-2);
+    color: var(--text-color-1);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+}
+
+.choose p{
+    font-family: var(--font-family-2);
+    color: var(--text-color-1);
+    margin-top: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+span{
+    color: var(--text-color-2);
+}
+
+.response{
+    font-family: var(--font-family-2);
+    text-align: center;
+    margin-top: 5px;
+    color: var(--text-color-1);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.score-div p{
+    font-family: var(--font-family-2);
+    color: var(--text-color-1);
+    width: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.score-div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--button-color);
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.footer p{
+    color: var(--text-color-2);
+    font-family: var(--font-family-2);
+}
+
+.final-verdict{
+    font-family: var(--font-family-2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color-1);
+    /* margin-top: 10%; */
+    background: var(--background-color-2);
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 12px var(--drop-shadow);
+}
+
+.final-verdict div{
+    margin-top: 20px;
+}
+
+.final-verdict p{
+    color: var(--text-color-1);
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.final-verdict h2{
+    font-size: 50px;
+}
+
+.final-verdict .restart{
+    width: 130px;
+    height: 70px;
+    font-size: 20px;
+    font-family: var(--font-family-2);
+}
+
+.round-p{
+    font-family: var(--font-family-2);
+    color: var(--text-color-2);
+    text-align: center;
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+.round-s{
+    font-family: var(--font-family-2);
+    color: var(--text-color-1);
+}
